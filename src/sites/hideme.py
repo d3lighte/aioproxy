@@ -19,3 +19,4 @@ async def getProxyMe():
         proxies = []
         for prx in proxy:
              proxies.append(f'{prx[0]}:{prx[1]}')
+        return proxies
